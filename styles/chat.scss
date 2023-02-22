@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+  font-family: PT Sans;
+  font-weight: 400;
+}
+body{
+  background: #24242f;
+}
+.header{
+  //width: 100%;
+  --bs-gutter-x: 0rem !important;
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-top: 1rem;
+  &-menu{
+    --bs-gutter-x: 0rem !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-btn, select{
+      background: rebeccapurple;
+      color: #fff;
+      padding: .5rem 1rem;
+      border-radius: .3rem;
+      transition: .3s ease-out;
+      border: rebeccapurple solid 1px;
+      &:hover{
+        transition: .3s ease-out;
+        background: rebeccapurple;
+        border-color: white;
+      }
+
+    }
+    & select:focus{
+      transition: .3s ease-out;
+      background: rebeccapurple;
+      border-color: white;
+    }
+
+    &-my-profile{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-logo{
+        &-image{
+          width: 100%;
+        }
+      }
+      &-title{
+        color: #fff;
+      }
+    }
+  }
+
+}

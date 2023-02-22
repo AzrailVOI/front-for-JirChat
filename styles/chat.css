@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  font-family: PT Sans;
+  font-weight: 400;
+}
+
+body {
+  background: #24242f;
+}
+
+.header {
+  --bs-gutter-x: 0rem !important;
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-top: 1rem;
+}
+.header-menu {
+  --bs-gutter-x: 0rem !important;
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-menu-btn, .header-menu select {
+  background: rebeccapurple;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  transition: 0.3s ease-out;
+  border: rebeccapurple solid 1px;
+}
+.header-menu-btn:hover, .header-menu select:hover {
+  transition: 0.3s ease-out;
+  background: rebeccapurple;
+  border-color: white;
+}
+.header-menu select:focus {
+  transition: 0.3s ease-out;
+  background: rebeccapurple;
+  border-color: white;
+}
+.header-menu-my-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-menu-my-profile-logo-image {
+  width: 100%;
+}
+.header-menu-my-profile-title {
+  color: #fff;
+}
+
+/*# sourceMappingURL=chat.css.map */
