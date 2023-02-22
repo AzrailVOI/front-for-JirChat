@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45205faa-799b-4bb2-92f5-c6d3fecac674" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/front-for-JirChat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/chat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/chat.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/chat.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/front for JirChat.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/qjirlogo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jirlogo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/jirlogo.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/chat.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/chat.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/chat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/chat.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,7 @@
       <workItem from="1676880806932" duration="1609000" />
       <workItem from="1677043743107" duration="2391000" />
       <workItem from="1677067155801" duration="5000" />
+      <workItem from="1677100662630" duration="374000" />
     </task>
     <servers />
   </component>
