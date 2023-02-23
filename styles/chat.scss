@@ -1,14 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+//#4000c3 #24242f
+
 $violet: #4000c3;
 $white: #ffffff;
 $lightGrey: #cbcbcb;
 $grey: #24242f;
+$footer-height: 3rem;
 *{
   font-family: PT Sans;
   font-weight: 400;
 }
 body{
   background: $grey;
+}
+.chat-btn{
+  background: $violet;
+  color: $white;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  transition: .3s ease-out;
+  border: $violet solid 1px;
+  &:hover{
+    transition: .3s ease-out;
+    border-color: white;
+    opacity: .8;
+  }
+}
+.chat-select{
+  background: $violet;
+  color: $white;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  transition: .3s ease-out;
+  border: $violet solid 1px;
+  &:hover{
+    transition: .3s ease-out;
+    border-color: white;
+    opacity: .8;
+  }
+  &:focus{
+    transition: .3s ease-out;
+    background: $violet;
+    border-color: white;
+  }
 }
 .header{
   //width: 100%;
@@ -25,9 +59,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    &-btn, select{
+    /*&-btn, select{
       background: $violet;
-      color: #fff;
+      color: $white;
       padding: .5rem 1rem;
       border-radius: .3rem;
       transition: .3s ease-out;
@@ -36,6 +70,7 @@ body{
         transition: .3s ease-out;
         background: $violet;
         border-color: white;
+        opacity: .8;
       }
 
     }
@@ -43,7 +78,7 @@ body{
       transition: .3s ease-out;
       background: $violet;
       border-color: white;
-    }
+    }*/
 
     &-my-profile{
       display: flex;
@@ -55,9 +90,27 @@ body{
         }
       }
       &-title{
-        color: #fff;
+        color: $white;
       }
     }
   }
 
+}
+
+.main{
+  &.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: $footer-height;
+  background: red;
 }

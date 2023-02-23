@@ -8,6 +8,39 @@ body {
   background: #24242f;
 }
 
+.chat-btn {
+  background: #4000c3;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  transition: 0.3s ease-out;
+  border: #4000c3 solid 1px;
+}
+.chat-btn:hover {
+  transition: 0.3s ease-out;
+  border-color: white;
+  opacity: 0.8;
+}
+
+.chat-select {
+  background: #4000c3;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  transition: 0.3s ease-out;
+  border: #4000c3 solid 1px;
+}
+.chat-select:hover {
+  transition: 0.3s ease-out;
+  border-color: white;
+  opacity: 0.8;
+}
+.chat-select:focus {
+  transition: 0.3s ease-out;
+  background: #4000c3;
+  border-color: white;
+}
+
 .header {
   --bs-gutter-x: 0rem !important;
   margin-top: 0 !important;
@@ -23,24 +56,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.header-menu-btn, .header-menu select {
-  background: #4000c3;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
-  transition: 0.3s ease-out;
-  border: #4000c3 solid 1px;
-}
-.header-menu-btn:hover, .header-menu select:hover {
-  transition: 0.3s ease-out;
-  background: #4000c3;
-  border-color: white;
-}
-.header-menu select:focus {
-  transition: 0.3s ease-out;
-  background: #4000c3;
-  border-color: white;
+  /*&-btn, select{
+    background: $violet;
+    color: $white;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    transition: .3s ease-out;
+    border: $violet solid 1px;
+    &:hover{
+      transition: .3s ease-out;
+      background: $violet;
+      border-color: white;
+      opacity: .8;
+    }
+
+  }
+  & select:focus{
+    transition: .3s ease-out;
+    background: $violet;
+    border-color: white;
+  }*/
 }
 .header-menu-my-profile {
   display: flex;
@@ -51,7 +86,21 @@ body {
   width: 100%;
 }
 .header-menu-my-profile-title {
-  color: #fff;
+  color: #ffffff;
+}
+
+.main.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 3rem;
+  background: red;
 }
 
 /*# sourceMappingURL=chat.css.map */

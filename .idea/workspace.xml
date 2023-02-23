@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45205faa-799b-4bb2-92f5-c6d3fecac674" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/qjirlogo.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/bootstrap.min.css" afterDir="false" />
+    <list default="true" id="45205faa-799b-4bb2-92f5-c6d3fecac674" name="Changes" comment="23.2.23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jirlogo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/jirlogo.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/chat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/chat.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/chat.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/chat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/chat.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +60,17 @@
       <workItem from="1677043743107" duration="2391000" />
       <workItem from="1677067155801" duration="5000" />
       <workItem from="1677100662630" duration="374000" />
+      <workItem from="1677101066793" duration="243000" />
+      <workItem from="1677101574658" duration="3477000" />
     </task>
+    <task id="LOCAL-00001" summary="23.2.23">
+      <created>1677101109317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677101109317</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +78,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="23.2.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.2.23" />
   </component>
 </project>
